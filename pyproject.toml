@@ -1,0 +1,17 @@
+[project]
+name = "31-flask-e"
+version = "0.1.0"
+description = "Add a short description here"
+authors = [
+    { name = "hglong16", email = "intihad.vuong@gmail.com" }
+]
+dependencies = ["flask~=2.3.2"]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
